@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Ruler']
+
+roboflow:
+  workspace: tri-cipta-internasional
+  project: ruler-segmentation-zhcjp
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/tri-cipta-internasional/ruler-segmentation-zhcjp/2
